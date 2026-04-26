@@ -1,0 +1,1310 @@
+{
+  "facturas_root": "facturas",
+  "xml_count": 108,
+  "pdf_count": 109,
+  "total": 217,
+  "files": [
+    {
+      "path": "facturas/2026/4KHFGFI41151-5813922c-926e-4743-b989-87c633ddf02c.pdf",
+      "ext": ".pdf",
+      "size": 44477,
+      "sha1": "e7afeba954b5fe2940bdb1b7517285cd0d1c4c9f"
+    },
+    {
+      "path": "facturas/2026/4KHFGFI43505-144e3ade-32ba-4511-84ac-b2c041e08e56.pdf",
+      "ext": ".pdf",
+      "size": 34821,
+      "sha1": "51890c5d2ae59587b0ae2d8b7ba2c39e8139b7bf"
+    },
+    {
+      "path": "facturas/2026/4KHFGFI43505-144e3ade-32ba-4511-84ac-b2c041e08e56.xml",
+      "ext": ".xml",
+      "size": 5951,
+      "sha1": "c2c098af3433ba8057886aa82725b5dc6c951201"
+    },
+    {
+      "path": "facturas/2026/4KHGJCI84986-6319050b-74bd-4b84-93fb-73cd132e3617.pdf",
+      "ext": ".pdf",
+      "size": 35314,
+      "sha1": "2c20f84a9c6233e670bc8080cca487241822e4c1"
+    },
+    {
+      "path": "facturas/2026/4KHGJCI84986-6319050b-74bd-4b84-93fb-73cd132e3617.xml",
+      "ext": ".xml",
+      "size": 6350,
+      "sha1": "0b4696a80f3da8e52729296f5f758effd6055223"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/F0000002744.pdf",
+      "ext": ".pdf",
+      "size": 132284,
+      "sha1": "5b75babfefad0115f22d68d6a4af44d1e351da5d"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/F0000002744.xml",
+      "ext": ".xml",
+      "size": 5200,
+      "sha1": "f6993e6024e517bce6b0b127153bbeba2686224a"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/F0000011249.pdf",
+      "ext": ".pdf",
+      "size": 131687,
+      "sha1": "6f231b9a20ccbb456c3922ffb924530ca463b295"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/F0000011249.xml",
+      "ext": ".xml",
+      "size": 5190,
+      "sha1": "30d0ddd5a062661d641c4fd2883b59ee37e90efc"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/F53BACE5-C859-442F-BC87-4D423E5C7897.xml",
+      "ext": ".xml",
+      "size": 5191,
+      "sha1": "9cb9f7f7e59489276994d01b08d3d85e7a7bb6db"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/FACTURA 3178.pdf",
+      "ext": ".pdf",
+      "size": 57148,
+      "sha1": "24f608635790adf88fa123003756bf5309e8365a"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-AdqMerca/FACTURA 3178.xml",
+      "ext": ".xml",
+      "size": 5172,
+      "sha1": "2eaa8041616c53b854d1cac44af7fdc31d40e846"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-DedPers/000-710081.pdf",
+      "ext": ".pdf",
+      "size": 30946,
+      "sha1": "23f1ed5e83b2b86bd304546409b74447a99a363e"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-DedPers/000-710081.xml",
+      "ext": ".xml",
+      "size": 7026,
+      "sha1": "a9f6341438d2102bb42f39d5f1daaf9b6a806415"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-DedPers/CFDI307.xml",
+      "ext": ".xml",
+      "size": 5020,
+      "sha1": "57bd34b57e16ecf5c1dbcf2597b075c02401b2c1"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-DedPers/PDF307.pdf",
+      "ext": ".pdf",
+      "size": 88746,
+      "sha1": "f65ed3fe02f2771bd292b297f53e1197ea314a76"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/CBA120925L64_FOGR700831JD2_W42495.pdf",
+      "ext": ".pdf",
+      "size": 131126,
+      "sha1": "51e25512d5788ff6547c0a7b7f3556692fded4d3"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/CBA120925L64_FOGR700831JD2_W42495.xml",
+      "ext": ".xml",
+      "size": 5184,
+      "sha1": "aaf17a377082e5745aa51143e44d0720748537ac"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/Inv32748344.XML",
+      "ext": ".xml",
+      "size": 6552,
+      "sha1": "4d4003fd501b099914b86f5438ea78d42e3c0755"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/Inv32748344.pdf",
+      "ext": ".pdf",
+      "size": 125214,
+      "sha1": "f178336c291e2c05d845e9ae0d49dce00058b461"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1GAACK3429159.pdf",
+      "ext": ".pdf",
+      "size": 30421,
+      "sha1": "8e1e45304128e313dadb19254f169a4d3248d56e"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1GAACK3429159.xml",
+      "ext": ".xml",
+      "size": 5897,
+      "sha1": "cf242255030eaea30bf7938a179d3ae504c81072"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1GCBFK1343607.pdf",
+      "ext": ".pdf",
+      "size": 30293,
+      "sha1": "f35e09d5342a03e5f004c8a2948dfbb06872e032"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1GCBFK1343607.xml",
+      "ext": ".xml",
+      "size": 5064,
+      "sha1": "9096029439b6a06df1ad3d8bca03743ef674de7c"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1_FOGR700831JD2_GAACK_3466797.pdf",
+      "ext": ".pdf",
+      "size": 30419,
+      "sha1": "c334c369df39f0e850daf3f6b616cf5ecb1ea3c4"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1_FOGR700831JD2_GAACK_3466797.xml",
+      "ext": ".xml",
+      "size": 5890,
+      "sha1": "28fde7f4c719aa15416236504461bcc81ccb3971"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1_FOGR700831JD2_GAACK_3471409.pdf",
+      "ext": ".pdf",
+      "size": 30149,
+      "sha1": "7e7a5cf847f76f16cc3c1e01c1b3e9ba3443e333"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/PET040903DH1_FOGR700831JD2_GAACK_3471409.xml",
+      "ext": ".xml",
+      "size": 5484,
+      "sha1": "19b50e5e09cda1d63d95f2ea242f0a409f3a2688"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/SGM950714DC2_CLI_5bdc15b7-9050-475f-92d8-8e63daf7882d.pdf",
+      "ext": ".pdf",
+      "size": 402394,
+      "sha1": "cb4ec57de591e69aa1088b4f8b7b80b6fcb626ad"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/2601-Gastos/SGM950714DC2_CLI_5bdc15b7-9050-475f-92d8-8e63daf7882d.xml",
+      "ext": ".xml",
+      "size": 6252,
+      "sha1": "04ba85a9995c1ba8cfcd532f001ee33e8377f136"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/Acuse.FOGR700831JD2.38.2026.pdf",
+      "ext": ".pdf",
+      "size": 189389,
+      "sha1": "50e2a92d48dd63b46a93037f90a5e4591bd3ec93"
+    },
+    {
+      "path": "facturas/2026/Ene-2026/FOGR700831JD2.38.2026.pdf",
+      "ext": ".pdf",
+      "size": 70839,
+      "sha1": "3350c150b6ad9df52496ac8f2a445b504b8ebfd3"
+    },
+    {
+      "path": "facturas/2026/F_106000_2_3.pdf",
+      "ext": ".pdf",
+      "size": 24264,
+      "sha1": "8b7ff7bd016392ce5b5346c58c7155b5e6f5f24e"
+    },
+    {
+      "path": "facturas/2026/F_106000_2_3.xml",
+      "ext": ".xml",
+      "size": 5058,
+      "sha1": "5a4e5d0ffe97d4f269d24ef03934dfb94c2c9947"
+    },
+    {
+      "path": "facturas/2026/Inv32774906.XML",
+      "ext": ".xml",
+      "size": 5676,
+      "sha1": "ce235ee415954a3e51eaa53c0fec89f75edfd5b3"
+    },
+    {
+      "path": "facturas/2026/Inv32774906.pdf",
+      "ext": ".pdf",
+      "size": 119129,
+      "sha1": "dbf03d062671816ba8bd5126eece4441038c7497"
+    },
+    {
+      "path": "facturas/2026/Mar2026/ags230502hi9-g-8102-9d90f69b-eb96-437a-8002-2488820bd897.pdf",
+      "ext": ".pdf",
+      "size": 105302,
+      "sha1": "f4a619b11fe89855a265019c3482c73bdb468a46"
+    },
+    {
+      "path": "facturas/2026/Mar2026/ags230502hi9-g-8102-9d90f69b-eb96-437a-8002-2488820bd897.xml",
+      "ext": ".xml",
+      "size": 5141,
+      "sha1": "a5f6e4db98a0c839fdc09ba90a2941489b5d413e"
+    },
+    {
+      "path": "facturas/2026/ODM950324V2A_2026031200301051000378557POSA.pdf",
+      "ext": ".pdf",
+      "size": 37734,
+      "sha1": "40b904d7bf35b0dc6e296793e264acb93cd79600"
+    },
+    {
+      "path": "facturas/2026/ODM950324V2A_2026031200301051000378557POSA.xml",
+      "ext": ".xml",
+      "size": 7678,
+      "sha1": "656a3ed733e07f64844a1adcca60dd29393afef4"
+    },
+    {
+      "path": "facturas/2026/ODM950324V2A_2026031800328021000055936POSA.pdf",
+      "ext": ".pdf",
+      "size": 37089,
+      "sha1": "2242606411652d5c161b66cb07dd2a783f73cd49"
+    },
+    {
+      "path": "facturas/2026/ODM950324V2A_2026031800328021000055936POSA.xml",
+      "ext": ".xml",
+      "size": 6197,
+      "sha1": "2029bc44ba46924f342312e8a51a7f7128349d0f"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3480562.pdf",
+      "ext": ".pdf",
+      "size": 30180,
+      "sha1": "4ebacf2989bfcb76fffb5160d2673cc61fc0c9d0"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3480562.xml",
+      "ext": ".xml",
+      "size": 5060,
+      "sha1": "bb73def12a2a15d6a5b248c7cc2e1fb99322f1e2"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3505703.pdf",
+      "ext": ".pdf",
+      "size": 30405,
+      "sha1": "08499db9e167dd726e8c8d36d3cc755f47a8b7eb"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3505703.xml",
+      "ext": ".xml",
+      "size": 5894,
+      "sha1": "bbb8522ff264917491d50fb837b4ddaa073715e5"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3543385.pdf",
+      "ext": ".pdf",
+      "size": 30792,
+      "sha1": "ad6d2811cb7febda60710fa776c355b3a0b3d587"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAACK3543385.xml",
+      "ext": ".xml",
+      "size": 7144,
+      "sha1": "8c0902453358eac1d947a09832aa7f48fbe71f75"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAGGK4373957.pdf",
+      "ext": ".pdf",
+      "size": 30116,
+      "sha1": "fbcddb66f0cf64dfc2e53f32a1ab920cb339687f"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GAGGK4373957.xml",
+      "ext": ".xml",
+      "size": 5060,
+      "sha1": "92ff236a817b2e30a2c020b5eb7079a702b8ae1e"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GDAHK905145.pdf",
+      "ext": ".pdf",
+      "size": 30192,
+      "sha1": "3ef26dc560acdd0e1deb7273df75268a123ddcd3"
+    },
+    {
+      "path": "facturas/2026/PET040903DH1GDAHK905145.xml",
+      "ext": ".xml",
+      "size": 5064,
+      "sha1": "a67c0f0bcff876a117294a602024937711d28344"
+    },
+    {
+      "path": "facturas/2026/SGM950714DC2_CLI_84ce9da9-1f92-434c-af7d-b31e536935aa.pdf",
+      "ext": ".pdf",
+      "size": 403583,
+      "sha1": "154e87683eb2d446c328f37ffc7da7fabc9b3bbd"
+    },
+    {
+      "path": "facturas/2026/SGM950714DC2_CLI_84ce9da9-1f92-434c-af7d-b31e536935aa.xml",
+      "ext": ".xml",
+      "size": 6265,
+      "sha1": "0a973cbf015f2f85d4f305a7284ba702035ea7f0"
+    },
+    {
+      "path": "facturas/2026/SGM950714DC2_CLI_a121db9f-82bf-4bc1-a183-ab18f33109f2.xml",
+      "ext": ".xml",
+      "size": 6232,
+      "sha1": "662bf939024838c2422a28cd3a096e530df53897"
+    },
+    {
+      "path": "facturas/2026/SGM950714DC2_CLI_a95b93fd-2b51-4d22-b813-87cadf7bbae7.xml",
+      "ext": ".xml",
+      "size": 6263,
+      "sha1": "1f3b2010eac1260aa6757f2874d956cba1d53d7d"
+    },
+    {
+      "path": "facturas/2026/SGO000306ST8_CFDI_I112828_20260331.pdf",
+      "ext": ".pdf",
+      "size": 145047,
+      "sha1": "7be0f4c86c0c5553739e465dffdaa37784967c3a"
+    },
+    {
+      "path": "facturas/2026/SGO000306ST8_CFDI_I112828_20260331.xml",
+      "ext": ".xml",
+      "size": 5019,
+      "sha1": "7bea166fcc3191910c01b6332122771edcc99796"
+    },
+    {
+      "path": "facturas/2026/ede020225cr7_pl7240expes2015_2026-03-18t16-06-52_ca28689_fogr700831jd2_$831.42.pdf",
+      "ext": ".pdf",
+      "size": 33753,
+      "sha1": "d4ef02aac96b25384fb27fc100ada28d011899ba"
+    },
+    {
+      "path": "facturas/2026/ede020225cr7_pl7240expes2015_2026-03-18t16-06-52_ca28689_fogr700831jd2_$831.42.xml",
+      "ext": ".xml",
+      "size": 4910,
+      "sha1": "5faf3872cba91eb9703bbd1cb892288385cb7ef5"
+    },
+    {
+      "path": "facturas/3068264HGJAI00870105308840072925765.pdf",
+      "ext": ".pdf",
+      "size": 46629,
+      "sha1": "49f64b943dff23d16429bff434e5434940406844"
+    },
+    {
+      "path": "facturas/3068264HGJAI00870105308840072925765.xml",
+      "ext": ".xml",
+      "size": 7229,
+      "sha1": "e1d72e50963b01d5955b7d001b02e903590f00f2"
+    },
+    {
+      "path": "facturas/3069994HGJAI00870105401241073025776.pdf",
+      "ext": ".pdf",
+      "size": 45556,
+      "sha1": "65eb118200c7419f4ff427b49af71c00d63a7cfe"
+    },
+    {
+      "path": "facturas/3069994HGJAI00870105401241073025776.xml",
+      "ext": ".xml",
+      "size": 5922,
+      "sha1": "3bbb42a7b187d8f7e97203ec4d96a841090a1d32"
+    },
+    {
+      "path": "facturas/3084694HGJAI00870105309406080125542.pdf",
+      "ext": ".pdf",
+      "size": 46192,
+      "sha1": "68f3ba7e665736a185f2a4d15586181898d51022"
+    },
+    {
+      "path": "facturas/3084694HGJAI00870105309406080125542.xml",
+      "ext": ".xml",
+      "size": 6319,
+      "sha1": "2c254150948c69b775f7d6aec2a977c4b522c045"
+    },
+    {
+      "path": "facturas/3149164HGJAI00870105303548082325164 (1).pdf",
+      "ext": ".pdf",
+      "size": 47315,
+      "sha1": "d07b3bc4fc81737d4936a80d693e00ccd1769485"
+    },
+    {
+      "path": "facturas/3149164HGJAI00870105303548082325164 (1).xml",
+      "ext": ".xml",
+      "size": 8581,
+      "sha1": "0e0c75d6d6f5a4c38050ce10a28485167dd99686"
+    },
+    {
+      "path": "facturas/3149164HGJAI00870105303548082325164.pdf",
+      "ext": ".pdf",
+      "size": 47315,
+      "sha1": "644700c7ce50170b8d5b4fcc33dd56d31f29b103"
+    },
+    {
+      "path": "facturas/3149164HGJAI00870105303548082325164.xml",
+      "ext": ".xml",
+      "size": 8581,
+      "sha1": "0e0c75d6d6f5a4c38050ce10a28485167dd99686"
+    },
+    {
+      "path": "facturas/34c0ba58-cdf0-4996-827a-55f968f0db61.pdf",
+      "ext": ".pdf",
+      "size": 50717,
+      "sha1": "307b549637bdb694c38825de6753b250452cc7df"
+    },
+    {
+      "path": "facturas/34c0ba58-cdf0-4996-827a-55f968f0db61.xml",
+      "ext": ".xml",
+      "size": 5207,
+      "sha1": "f0ce1f9bd43e0d83708096006bd3b4268fb7f641"
+    },
+    {
+      "path": "facturas/4094564D-BC23-4071-B45E-10DE1975C417.pdf",
+      "ext": ".pdf",
+      "size": 39235,
+      "sha1": "895a1195ce60c5d535aec8bea5e6d93987b5413f"
+    },
+    {
+      "path": "facturas/4094564D-BC23-4071-B45E-10DE1975C417.xml",
+      "ext": ".xml",
+      "size": 5204,
+      "sha1": "f639b1b5316e2c37175569d00bb6e2b684313d5a"
+    },
+    {
+      "path": "facturas/4KHFGFI36282-ef380e27-0f34-4ab9-ae69-c6d4510e2273.pdf",
+      "ext": ".pdf",
+      "size": 42304,
+      "sha1": "da62f14b8e2697a1ecb3210c4994ba23b74b399d"
+    },
+    {
+      "path": "facturas/4KHFGFI36282-ef380e27-0f34-4ab9-ae69-c6d4510e2273.xml",
+      "ext": ".xml",
+      "size": 6800,
+      "sha1": "30d681961660356ff7e36d689bb445b0a2a55f02"
+    },
+    {
+      "path": "facturas/4KHGJAI10583-74ef7084-d31f-4989-ac50-8d3ab7d924f2.pdf",
+      "ext": ".pdf",
+      "size": 35252,
+      "sha1": "f76e53cdb4055281f17c88fc81b4fe9fdadeb058"
+    },
+    {
+      "path": "facturas/4KHGJAI10583-74ef7084-d31f-4989-ac50-8d3ab7d924f2.xml",
+      "ext": ".xml",
+      "size": 5534,
+      "sha1": "51bcfc49ad5d150a250e32ee1916b8cbc1507e75"
+    },
+    {
+      "path": "facturas/4KHGJAI1400-a473e174-3ef1-47ad-b4c8-febf3451adcd.pdf",
+      "ext": ".pdf",
+      "size": 29308,
+      "sha1": "dc9facca219f1fd0b8a7db53651605a2f71f1ea9"
+    },
+    {
+      "path": "facturas/4KHGJAI1400-a473e174-3ef1-47ad-b4c8-febf3451adcd.xml",
+      "ext": ".xml",
+      "size": 5533,
+      "sha1": "a54daeec7a81dcf38493ee715d7e7cee5903b998"
+    },
+    {
+      "path": "facturas/4KHGJAI39363-fecefd18-c338-45e2-8f6c-c8afdaad36ad (1).pdf",
+      "ext": ".pdf",
+      "size": 34526,
+      "sha1": "fb7883546f139645312a5ec031d47742fe9640cd"
+    },
+    {
+      "path": "facturas/4KHGJAI39363-fecefd18-c338-45e2-8f6c-c8afdaad36ad.xml",
+      "ext": ".xml",
+      "size": 5105,
+      "sha1": "2528112201005854fa364160e392e6bca15fc7bb"
+    },
+    {
+      "path": "facturas/4KHGJAI39440-4a2f1b64-1456-4001-8fa8-e9e36f01ba4b (1).pdf",
+      "ext": ".pdf",
+      "size": 42640,
+      "sha1": "b5896d875b62cebc1912b3b71217e862d33e1fe5"
+    },
+    {
+      "path": "facturas/4KHGJAI39440-4a2f1b64-1456-4001-8fa8-e9e36f01ba4b.xml",
+      "ext": ".xml",
+      "size": 6765,
+      "sha1": "e96fb7fda09c71ce1d0c91f0a5ed6a7c091f2a01"
+    },
+    {
+      "path": "facturas/4KHGJAI39441-ac85fd78-bee4-4e4c-99ea-f7ebe51f59bf (1).pdf",
+      "ext": ".pdf",
+      "size": 42657,
+      "sha1": "39f411d0d53b015df0e1526e5bc54cd61684c84b"
+    },
+    {
+      "path": "facturas/4KHGJAI39441-ac85fd78-bee4-4e4c-99ea-f7ebe51f59bf.xml",
+      "ext": ".xml",
+      "size": 7953,
+      "sha1": "2c1a2234b9ba85251d98c6900d4a63a57810a871"
+    },
+    {
+      "path": "facturas/4KHGJAI39787-04869ea5-6dd4-4250-824e-3a5232f00bac (1).pdf",
+      "ext": ".pdf",
+      "size": 34864,
+      "sha1": "e981aebb1fea7a1e609fde89aaf77ff6e58a247f"
+    },
+    {
+      "path": "facturas/4KHGJAI39787-04869ea5-6dd4-4250-824e-3a5232f00bac.xml",
+      "ext": ".xml",
+      "size": 5505,
+      "sha1": "3a30315e000b3cd41e7ce7206622edefb25082f3"
+    },
+    {
+      "path": "facturas/64851293.pdf",
+      "ext": ".pdf",
+      "size": 102369,
+      "sha1": "a207503a3218644b543018ba5b7b1ea42e752079"
+    },
+    {
+      "path": "facturas/9e1cca35-1a08-42f1-b50b-f42b8d13cb93.pdf",
+      "ext": ".pdf",
+      "size": 51079,
+      "sha1": "995f2c2270d39d9b1c0865780cf6d0a94398157b"
+    },
+    {
+      "path": "facturas/9e1cca35-1a08-42f1-b50b-f42b8d13cb93.xml",
+      "ext": ".xml",
+      "size": 5207,
+      "sha1": "d0574169ff60b15090c5829df261169eed1c11bf"
+    },
+    {
+      "path": "facturas/AME970109GW0_FOGR700831JD2_00007106_832372_f22a7eb6-34a3-45d4-9521-9b9d2c518fc2.pdf",
+      "ext": ".pdf",
+      "size": 125336,
+      "sha1": "038ce03ec5b50d0ae6e95876ac1f65db8c1466f1"
+    },
+    {
+      "path": "facturas/AME970109GW0_FOGR700831JD2_00007106_832372_f22a7eb6-34a3-45d4-9521-9b9d2c518fc2.xml",
+      "ext": ".xml",
+      "size": 6281,
+      "sha1": "cdd28bedd8edb9c26a5f571279f00772acd6dea8"
+    },
+    {
+      "path": "facturas/AME970109GW0_FOGR700831JD2_00007106_842436_16feaa8f-b6ba-49bf-b622-9b9d2c51ab84.pdf",
+      "ext": ".pdf",
+      "size": 124199,
+      "sha1": "2f162f0852e79bec634f40c3948eb24bfd549b31"
+    },
+    {
+      "path": "facturas/AME970109GW0_FOGR700831JD2_00007106_842436_16feaa8f-b6ba-49bf-b622-9b9d2c51ab84.xml",
+      "ext": ".xml",
+      "size": 5485,
+      "sha1": "63413523f6830aecd7647147a1d5649b80802397"
+    },
+    {
+      "path": "facturas/BRM940216EQ6_9_2025_1609795.pdf",
+      "ext": ".pdf",
+      "size": 85828,
+      "sha1": "452ea1c266c4d696ba3fa7bc46253965e05be6db"
+    },
+    {
+      "path": "facturas/BRM940216EQ6_9_2025_1609795.xml",
+      "ext": ".xml",
+      "size": 5276,
+      "sha1": "6d0d0ce47b61ba6dbcbbb1f296fbc17057b72016"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A208703.pdf",
+      "ext": ".pdf",
+      "size": 264529,
+      "sha1": "6e5e9b822d0bf31bae95361f452f6299b834dfe1"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A208703.xml",
+      "ext": ".xml",
+      "size": 5508,
+      "sha1": "a0a840de5651309ef8af0b8567ee9b530dcb871f"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A208808.pdf",
+      "ext": ".pdf",
+      "size": 264536,
+      "sha1": "13fe834ec5ad49ba6bc69e095032fe82bbcb77c5"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A208808.xml",
+      "ext": ".xml",
+      "size": 5512,
+      "sha1": "de277d5c2659ed9a52af5c1904d1f55c3c198c37"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A211004.pdf",
+      "ext": ".pdf",
+      "size": 264525,
+      "sha1": "7614086e2660370537c8fe7b4bd157d97cea7a93"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A211004.xml",
+      "ext": ".xml",
+      "size": 5509,
+      "sha1": "8aa62a2f09ee81d33c21346cd79166ee6a7769d8"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A212407.pdf",
+      "ext": ".pdf",
+      "size": 264531,
+      "sha1": "d4b29681c63651a6c43443acbed88cf2cd8f6510"
+    },
+    {
+      "path": "facturas/CRC680210MT6_A212407.xml",
+      "ext": ".xml",
+      "size": 5512,
+      "sha1": "3eff3ce2e4bc05822780aeba457f3684c5ace801"
+    },
+    {
+      "path": "facturas/F-103.pdf",
+      "ext": ".pdf",
+      "size": 7128,
+      "sha1": "85a4a6242f4774e7c9d6ab3bf1c550f8cfd2a96f"
+    },
+    {
+      "path": "facturas/F-103.xml",
+      "ext": ".xml",
+      "size": 4527,
+      "sha1": "b654d4b8060f12258fec4ebe1a30d58904ae9fb1"
+    },
+    {
+      "path": "facturas/F-275.pdf",
+      "ext": ".pdf",
+      "size": 8203,
+      "sha1": "c3d553c3a1c5c2b97a16e3a9954acd0f970593e7"
+    },
+    {
+      "path": "facturas/F-275.xml",
+      "ext": ".xml",
+      "size": 4529,
+      "sha1": "38ecd07c6cc6dceaf071fe9267d691cfe7b3ec50"
+    },
+    {
+      "path": "facturas/F-289.pdf",
+      "ext": ".pdf",
+      "size": 8207,
+      "sha1": "e6189f5ef5fa42b545d87ff0c459757de9bdce47"
+    },
+    {
+      "path": "facturas/F-289.xml",
+      "ext": ".xml",
+      "size": 4529,
+      "sha1": "cd3ebc5af3df010801d2b6544fd35d015fed433f"
+    },
+    {
+      "path": "facturas/F-299.pdf",
+      "ext": ".pdf",
+      "size": 8186,
+      "sha1": "e38019802002d1a2cb49d5df417ed2ab9c0963a4"
+    },
+    {
+      "path": "facturas/F-299.xml",
+      "ext": ".xml",
+      "size": 4529,
+      "sha1": "3d22b2546db67abf819d38bc22d41706382319b6"
+    },
+    {
+      "path": "facturas/F-300.pdf",
+      "ext": ".pdf",
+      "size": 8263,
+      "sha1": "87dd472d3f630a9991db42f148c3b5167ed37510"
+    },
+    {
+      "path": "facturas/F-300.xml",
+      "ext": ".xml",
+      "size": 4529,
+      "sha1": "977bfdd78180de4b2c4bf378a80d255e77794f1f"
+    },
+    {
+      "path": "facturas/F-308.pdf",
+      "ext": ".pdf",
+      "size": 8260,
+      "sha1": "1763fc78891d8753094b45064e26f57ee8743fe8"
+    },
+    {
+      "path": "facturas/F-308.xml",
+      "ext": ".xml",
+      "size": 4529,
+      "sha1": "e7c5598e6298b9c772e406d3c166d1c3eea6eb71"
+    },
+    {
+      "path": "facturas/FACTURA 37692ae7-c84d-4e9d-b069-217f05d901ba.pdf",
+      "ext": ".pdf",
+      "size": 20977,
+      "sha1": "a79e19fedfe297c4d1c319bd0fded099cf621111"
+    },
+    {
+      "path": "facturas/FACTURA 37692ae7-c84d-4e9d-b069-217f05d901ba.xml",
+      "ext": ".xml",
+      "size": 6276,
+      "sha1": "247657d78a6ecafe924d182d36f69c4da679946a"
+    },
+    {
+      "path": "facturas/FACTURA db070534-4486-4482-8e5b-1378a4176614.pdf",
+      "ext": ".pdf",
+      "size": 20960,
+      "sha1": "5269b27227080000d24411a7b30656dfd5bba148"
+    },
+    {
+      "path": "facturas/FACTURA db070534-4486-4482-8e5b-1378a4176614.xml",
+      "ext": ".xml",
+      "size": 6337,
+      "sha1": "8c8fddafd92ce8ea105ff270cd9b9795c62dd662"
+    },
+    {
+      "path": "facturas/FMO900526B94FF41305.pdf",
+      "ext": ".pdf",
+      "size": 75908,
+      "sha1": "7c19c90c78a57203d6b51d6aa3bf2199973016a9"
+    },
+    {
+      "path": "facturas/FMO900526B94FF41305.xml",
+      "ext": ".xml",
+      "size": 5075,
+      "sha1": "64ae80dbf66975045417c55bb4dd09ffbd264976"
+    },
+    {
+      "path": "facturas/FOGR700831JD2..EE01.00012316.pdf",
+      "ext": ".pdf",
+      "size": 21782,
+      "sha1": "1edb2574abc209c885d859033de488101d9aced6"
+    },
+    {
+      "path": "facturas/FOGR700831JD2..EE01.00012316.xml",
+      "ext": ".xml",
+      "size": 5053,
+      "sha1": "74ebf2ed61d48debc9ab6a23610cca5daaf41329"
+    },
+    {
+      "path": "facturas/F_106000_2_3.pdf",
+      "ext": ".pdf",
+      "size": 24264,
+      "sha1": "8b7ff7bd016392ce5b5346c58c7155b5e6f5f24e"
+    },
+    {
+      "path": "facturas/F_106000_2_3.xml",
+      "ext": ".xml",
+      "size": 5058,
+      "sha1": "5a4e5d0ffe97d4f269d24ef03934dfb94c2c9947"
+    },
+    {
+      "path": "facturas/F_132920_2_4.pdf",
+      "ext": ".pdf",
+      "size": 24256,
+      "sha1": "fe92e2b4f87a763e66ce9e80457885bcc1268769"
+    },
+    {
+      "path": "facturas/F_132920_2_4.xml",
+      "ext": ".xml",
+      "size": 5063,
+      "sha1": "a1abdea7740b267aab8e3432cae10d78f5763aa6"
+    },
+    {
+      "path": "facturas/F_134517_2_4.pdf",
+      "ext": ".pdf",
+      "size": 24276,
+      "sha1": "e50ff80c2c9c1987d60785b0b7fb8ba22479973a"
+    },
+    {
+      "path": "facturas/F_134517_2_4.xml",
+      "ext": ".xml",
+      "size": 5058,
+      "sha1": "4873b21cf3375781a4f4adf1da309083aa2375bd"
+    },
+    {
+      "path": "facturas/F_147309_2_2.pdf",
+      "ext": ".pdf",
+      "size": 24289,
+      "sha1": "3b1707566dafa1286c9577ffdacc5b88f1f72f70"
+    },
+    {
+      "path": "facturas/F_147309_2_2.xml",
+      "ext": ".xml",
+      "size": 5019,
+      "sha1": "81cc5a350ed5f5620311d541a787a4170057a7b5"
+    },
+    {
+      "path": "facturas/F_147383_2_2 (1).pdf",
+      "ext": ".pdf",
+      "size": 24290,
+      "sha1": "1bac7e2fc1bd624206f20ea5edefa24b5a73d0a2"
+    },
+    {
+      "path": "facturas/F_147383_2_2.xml",
+      "ext": ".xml",
+      "size": 5019,
+      "sha1": "28ffe9f258b9e65bf92615b09309fa4a6a23a591"
+    },
+    {
+      "path": "facturas/Factura_ISD950921HE5_-20251219.pdf",
+      "ext": ".pdf",
+      "size": 102226,
+      "sha1": "e47cb138329428c43372392bd33d60862a43a8f6"
+    },
+    {
+      "path": "facturas/Factura_ISD950921HE5_-20251219.xml",
+      "ext": ".xml",
+      "size": 6203,
+      "sha1": "67c5d447ce60d83f09ba294134596cb0a48a6c5f"
+    },
+    {
+      "path": "facturas/Inv32766691.XML",
+      "ext": ".xml",
+      "size": 7037,
+      "sha1": "9bc4f5fcac314d200f38e9406b622a0ce65f2fed"
+    },
+    {
+      "path": "facturas/Inv32766691.pdf",
+      "ext": ".pdf",
+      "size": 120339,
+      "sha1": "c81c8a67878a1f0d0b6a7e4ea4ad95567241a43c"
+    },
+    {
+      "path": "facturas/Inv32774906.XML",
+      "ext": ".xml",
+      "size": 5676,
+      "sha1": "ce235ee415954a3e51eaa53c0fec89f75edfd5b3"
+    },
+    {
+      "path": "facturas/Inv32774906.pdf",
+      "ext": ".pdf",
+      "size": 119129,
+      "sha1": "dbf03d062671816ba8bd5126eece4441038c7497"
+    },
+    {
+      "path": "facturas/MAML6412198F9_A765_c156be88-ff6f-4347-9563-57ae006dbfda.pdf",
+      "ext": ".pdf",
+      "size": 12440,
+      "sha1": "33f225dbac825bdf4fc84b7957d6b0aeddaa9ee4"
+    },
+    {
+      "path": "facturas/MAML6412198F9_A765_c156be88-ff6f-4347-9563-57ae006dbfda.xml",
+      "ext": ".xml",
+      "size": 5024,
+      "sha1": "e449c9845472f257822ee6d78e4c71d6448d8ced"
+    },
+    {
+      "path": "facturas/NOTA CR\u00c9DITO 81bd8cf2-05c5-4289-a2e9-777b2a10dc35.pdf",
+      "ext": ".pdf",
+      "size": 19274,
+      "sha1": "93a468ea797f6f4c48541bcbade3318d9305b815"
+    },
+    {
+      "path": "facturas/NOTA CR\u00c9DITO 81bd8cf2-05c5-4289-a2e9-777b2a10dc35.xml",
+      "ext": ".xml",
+      "size": 5224,
+      "sha1": "2f66adedf1223b111551a393de6de79fd5146594"
+    },
+    {
+      "path": "facturas/ODM950324V2A_2026031800328021000055936POSA.pdf",
+      "ext": ".pdf",
+      "size": 37089,
+      "sha1": "2242606411652d5c161b66cb07dd2a783f73cd49"
+    },
+    {
+      "path": "facturas/ODM950324V2A_2026031800328021000055936POSA.xml",
+      "ext": ".xml",
+      "size": 6197,
+      "sha1": "2029bc44ba46924f342312e8a51a7f7128349d0f"
+    },
+    {
+      "path": "facturas/PET040903DH1FHJGK1485706.pdf",
+      "ext": ".pdf",
+      "size": 30092,
+      "sha1": "edff19cc31fd2aa5c9eef92fcedf7501dcbd9f06"
+    },
+    {
+      "path": "facturas/PET040903DH1FHJGK1485706.xml",
+      "ext": ".xml",
+      "size": 5061,
+      "sha1": "ead765bdd2f8046d2a021c9bbef99bd96f1fe804"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3259363.pdf",
+      "ext": ".pdf",
+      "size": 30055,
+      "sha1": "9d1264a49c8b014e11fc0b4ba9a89aed34bee65c"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3259363.xml",
+      "ext": ".xml",
+      "size": 5890,
+      "sha1": "7b395dcc43f8c4795212e9a5d3e2b9e1a316d55d"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3283362.pdf",
+      "ext": ".pdf",
+      "size": 30231,
+      "sha1": "0a58f89fc66f8c2caaea776e4550b5fa5885954f"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3283362.xml",
+      "ext": ".xml",
+      "size": 5485,
+      "sha1": "4c969ba1ddd04d5f8ad29e49c88ea5e2908cc914"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3313589.pdf",
+      "ext": ".pdf",
+      "size": 30011,
+      "sha1": "59b42470ca3d8ec24e53f2227e25b11513d285b6"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3313589.xml",
+      "ext": ".xml",
+      "size": 5892,
+      "sha1": "5b307450ae1281213c3a1d02c209d13a04caa0c6"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3358459.pdf",
+      "ext": ".pdf",
+      "size": 30347,
+      "sha1": "a6981c5b145c37ba7916ae7ac7cd844711428b92"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3358459.xml",
+      "ext": ".xml",
+      "size": 6306,
+      "sha1": "bd5d61d5cccca769d44e9bb29dc0b582ba6be1e7"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3378723.pdf",
+      "ext": ".pdf",
+      "size": 30454,
+      "sha1": "31b2a730f00608fd6b5a73e725c4782aa0b1b4b6"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3378723.xml",
+      "ext": ".xml",
+      "size": 6309,
+      "sha1": "81a49899e3cb18cd6aa2efd10b8bbb371a9a132c"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3405540.pdf",
+      "ext": ".pdf",
+      "size": 30770,
+      "sha1": "9ad1eb312bd09af150efa93a34490a911b1fb557"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3405540.xml",
+      "ext": ".xml",
+      "size": 5912,
+      "sha1": "f82e25cdcb530fd84e9c386a606d1a814ccd12e7"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3480562.pdf",
+      "ext": ".pdf",
+      "size": 30180,
+      "sha1": "4ebacf2989bfcb76fffb5160d2673cc61fc0c9d0"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3480562.xml",
+      "ext": ".xml",
+      "size": 5060,
+      "sha1": "bb73def12a2a15d6a5b248c7cc2e1fb99322f1e2"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3505703.pdf",
+      "ext": ".pdf",
+      "size": 30405,
+      "sha1": "08499db9e167dd726e8c8d36d3cc755f47a8b7eb"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3505703.xml",
+      "ext": ".xml",
+      "size": 5894,
+      "sha1": "bbb8522ff264917491d50fb837b4ddaa073715e5"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3543385.pdf",
+      "ext": ".pdf",
+      "size": 30792,
+      "sha1": "ad6d2811cb7febda60710fa776c355b3a0b3d587"
+    },
+    {
+      "path": "facturas/PET040903DH1GAACK3543385.xml",
+      "ext": ".xml",
+      "size": 7144,
+      "sha1": "8c0902453358eac1d947a09832aa7f48fbe71f75"
+    },
+    {
+      "path": "facturas/PET040903DH1GAGGK4373957.pdf",
+      "ext": ".pdf",
+      "size": 30116,
+      "sha1": "fbcddb66f0cf64dfc2e53f32a1ab920cb339687f"
+    },
+    {
+      "path": "facturas/PET040903DH1GAGGK4373957.xml",
+      "ext": ".xml",
+      "size": 5060,
+      "sha1": "92ff236a817b2e30a2c020b5eb7079a702b8ae1e"
+    },
+    {
+      "path": "facturas/PET040903DH1GCBFK1315576 (1).pdf",
+      "ext": ".pdf",
+      "size": 30144,
+      "sha1": "aa3422d65e879c1a1733ae6638d69ee88ffbd84b"
+    },
+    {
+      "path": "facturas/PET040903DH1GCBFK1315576 (1).xml",
+      "ext": ".xml",
+      "size": 5064,
+      "sha1": "72aff6d0b58a2aca9253a816003b3a6edc43d192"
+    },
+    {
+      "path": "facturas/PET040903DH1GCBFK1315576.pdf",
+      "ext": ".pdf",
+      "size": 30144,
+      "sha1": "aa3422d65e879c1a1733ae6638d69ee88ffbd84b"
+    },
+    {
+      "path": "facturas/PET040903DH1GCBFK1315576.xml",
+      "ext": ".xml",
+      "size": 5064,
+      "sha1": "72aff6d0b58a2aca9253a816003b3a6edc43d192"
+    },
+    {
+      "path": "facturas/PET040903DH1GDAHK905145.pdf",
+      "ext": ".pdf",
+      "size": 30192,
+      "sha1": "3ef26dc560acdd0e1deb7273df75268a123ddcd3"
+    },
+    {
+      "path": "facturas/PET040903DH1GDAHK905145.xml",
+      "ext": ".xml",
+      "size": 5064,
+      "sha1": "a67c0f0bcff876a117294a602024937711d28344"
+    },
+    {
+      "path": "facturas/PET040903DH1HAADK2613898.pdf",
+      "ext": ".pdf",
+      "size": 30017,
+      "sha1": "4da75ea09cd9964b40e18359cf9a6046d38e13ec"
+    },
+    {
+      "path": "facturas/PET040903DH1HAADK2613898.xml",
+      "ext": ".xml",
+      "size": 5060,
+      "sha1": "86799d06ced31ea07d1b854cb91d33d4f27fa6d5"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_15d88e83-f0b4-4900-982e-dfe66adf6ffb.pdf",
+      "ext": ".pdf",
+      "size": 402314,
+      "sha1": "bdedd169a341f370aea493b2bb9592be5534722f"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_15d88e83-f0b4-4900-982e-dfe66adf6ffb.xml",
+      "ext": ".xml",
+      "size": 6237,
+      "sha1": "41b661316bff4b316fac7f0faf668bee375785c7"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_1c9cca71-766f-46cd-8587-69f4d39fbcda.pdf",
+      "ext": ".pdf",
+      "size": 401955,
+      "sha1": "25fcb5bf6343e2400b8db2e1415829da9572aa00"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_1c9cca71-766f-46cd-8587-69f4d39fbcda.xml",
+      "ext": ".xml",
+      "size": 6253,
+      "sha1": "95472fd8a5042ba5e484e59631d72762a7518207"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_2271bcd7-cc1e-40eb-9f79-ff6e920b2461.pdf",
+      "ext": ".pdf",
+      "size": 402966,
+      "sha1": "6b0a25c1973aa30e585b904b68e229f46a26521e"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_2271bcd7-cc1e-40eb-9f79-ff6e920b2461.xml",
+      "ext": ".xml",
+      "size": 6248,
+      "sha1": "156a379c780b00a5ef5fa5f44b99e6c1614eea53"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_4df46e81-87a4-4d41-8cc7-b0319d7339f7.pdf",
+      "ext": ".pdf",
+      "size": 401763,
+      "sha1": "bbda93276587db4df3777ec633ed6f1f3ea680ba"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_4df46e81-87a4-4d41-8cc7-b0319d7339f7.xml",
+      "ext": ".xml",
+      "size": 6241,
+      "sha1": "bdf870f8de242643ec34b0a4516a03e2f081e478"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_591b5098-b47c-4747-aa9f-811e865d493e.pdf",
+      "ext": ".pdf",
+      "size": 402853,
+      "sha1": "d369c6a730f0950b31a29818c1e029c62b3b7c95"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_591b5098-b47c-4747-aa9f-811e865d493e.xml",
+      "ext": ".xml",
+      "size": 6248,
+      "sha1": "bd16113ae604a399552495c96e7b9d7d13372017"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_6c1249ee-9ba8-49b2-97cf-1bbd90423f8b.pdf",
+      "ext": ".pdf",
+      "size": 402328,
+      "sha1": "63adbdb56f2c204df1531829be823d9609dc5bf8"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_6c1249ee-9ba8-49b2-97cf-1bbd90423f8b.xml",
+      "ext": ".xml",
+      "size": 6234,
+      "sha1": "137b0ddbb120d2bfb082daef560f9faacc795f14"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_84ce9da9-1f92-434c-af7d-b31e536935aa.pdf",
+      "ext": ".pdf",
+      "size": 403583,
+      "sha1": "154e87683eb2d446c328f37ffc7da7fabc9b3bbd"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_84ce9da9-1f92-434c-af7d-b31e536935aa.xml",
+      "ext": ".xml",
+      "size": 6265,
+      "sha1": "0a973cbf015f2f85d4f305a7284ba702035ea7f0"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_9f3b0799-022f-4818-a81a-1ad51235b9a3.pdf",
+      "ext": ".pdf",
+      "size": 402916,
+      "sha1": "1aa5a4d71019e7633f95863ab0efd2bc06a7c0c2"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_9f3b0799-022f-4818-a81a-1ad51235b9a3.xml",
+      "ext": ".xml",
+      "size": 6237,
+      "sha1": "cbe1a4c48489788ced5c3eaab70ceab9f82cd5a4"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_a121db9f-82bf-4bc1-a183-ab18f33109f2.pdf",
+      "ext": ".pdf",
+      "size": 403330,
+      "sha1": "cbabdc2b2857543a4b4654bdb9af6e99fa227e12"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_a121db9f-82bf-4bc1-a183-ab18f33109f2.xml",
+      "ext": ".xml",
+      "size": 6232,
+      "sha1": "662bf939024838c2422a28cd3a096e530df53897"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_a95b93fd-2b51-4d22-b813-87cadf7bbae7.pdf",
+      "ext": ".pdf",
+      "size": 402926,
+      "sha1": "8d160c713e30aa41878ba1f54876d2468340d429"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_a95b93fd-2b51-4d22-b813-87cadf7bbae7.xml",
+      "ext": ".xml",
+      "size": 6263,
+      "sha1": "1f3b2010eac1260aa6757f2874d956cba1d53d7d"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_aa1b7fd4-c892-4b4d-9ee0-1dd274c07c5f.pdf",
+      "ext": ".pdf",
+      "size": 402233,
+      "sha1": "7e4bcbc9f4641b6974253d26834e28a55e06e07a"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_aa1b7fd4-c892-4b4d-9ee0-1dd274c07c5f.xml",
+      "ext": ".xml",
+      "size": 6233,
+      "sha1": "d0f694281d63741031929c66b8e5664a521ec52a"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_ab9fcd67-f5bb-423d-9ecc-cd8f2055e7bf.pdf",
+      "ext": ".pdf",
+      "size": 402601,
+      "sha1": "a802cae35ba86ec07d27d44c7c9ad18c4d7ec61f"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_ab9fcd67-f5bb-423d-9ecc-cd8f2055e7bf.xml",
+      "ext": ".xml",
+      "size": 6233,
+      "sha1": "37914a994367d20f80850bd387c020eb2830c68f"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_c5065b5f-781f-4caf-9b8e-405de38e18b6.pdf",
+      "ext": ".pdf",
+      "size": 402553,
+      "sha1": "41fc2eefce36c0d769f5cbdad2a34b819e1767f7"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_c5065b5f-781f-4caf-9b8e-405de38e18b6.xml",
+      "ext": ".xml",
+      "size": 6227,
+      "sha1": "1527764f3518920135b7a9bfea4f7df28c46306b"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_cd907422-8e58-4214-98fb-94b212ba1535.pdf",
+      "ext": ".pdf",
+      "size": 402463,
+      "sha1": "d96e33f2aaca826ea52630bec765fa3aed08f31b"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_cd907422-8e58-4214-98fb-94b212ba1535.xml",
+      "ext": ".xml",
+      "size": 6245,
+      "sha1": "ed6f18062e9b1782e4ff1ff65aed35fab7fdbd83"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_e8606e18-06a4-4ac8-87b7-c0494938c695.pdf",
+      "ext": ".pdf",
+      "size": 447445,
+      "sha1": "2e3661614d02a1ecbb228a11bfc9d79d22c4e1f2"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_e8606e18-06a4-4ac8-87b7-c0494938c695.xml",
+      "ext": ".xml",
+      "size": 7113,
+      "sha1": "61c18a070ad33dabf8ad1fd2d7c3138a31cb1010"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_ffe0a05a-9db3-4a23-a3e4-3ffc0530eb48.pdf",
+      "ext": ".pdf",
+      "size": 402819,
+      "sha1": "2fccfe0e398e1091072846248db51e8f66e5b023"
+    },
+    {
+      "path": "facturas/SGM950714DC2_CLI_ffe0a05a-9db3-4a23-a3e4-3ffc0530eb48.xml",
+      "ext": ".xml",
+      "size": 6244,
+      "sha1": "eb5e4dd03627d0a2e348f11eb46a1d128542fb9a"
+    },
+    {
+      "path": "facturas/SGO000306ST8_CFDI_I112828_20260331.pdf",
+      "ext": ".pdf",
+      "size": 145047,
+      "sha1": "7be0f4c86c0c5553739e465dffdaa37784967c3a"
+    },
+    {
+      "path": "facturas/SGO000306ST8_CFDI_I112828_20260331.xml",
+      "ext": ".xml",
+      "size": 5019,
+      "sha1": "7bea166fcc3191910c01b6332122771edcc99796"
+    },
+    {
+      "path": "facturas/_20251119_ACS960605AK9_FOGR700831JD2_DDFAAC8D-B8A6-42D6-96FC-6A6E5985B006.xml",
+      "ext": ".xml",
+      "size": 5222,
+      "sha1": "55502a66c823a9fe9d5d26fe4f7691dade0ade30"
+    },
+    {
+      "path": "facturas/_20251119_ACS960605AK9_FOGR700831JD2_DDFAAC8D-B8A6-42D6-96FC-6A6E5985B006.xml.pdf",
+      "ext": ".pdf",
+      "size": 86897,
+      "sha1": "05849351c52632eab995eaddb0e2f9cbdec119db"
+    },
+    {
+      "path": "facturas/ba5dbdac-0f17-4862-b55e-8f49fbcf16eb.pdf",
+      "ext": ".pdf",
+      "size": 50626,
+      "sha1": "c1a402ccbd4bf6a4933dd4df3fe22a945e83a4a1"
+    },
+    {
+      "path": "facturas/ba5dbdac-0f17-4862-b55e-8f49fbcf16eb.xml",
+      "ext": ".xml",
+      "size": 5205,
+      "sha1": "7ff6467a2cf51a1f4d452623a8df7bd161d9cac0"
+    },
+    {
+      "path": "facturas/ede020225cr7_pl7240expes2015_2026-03-18t16-06-52_ca28689_fogr700831jd2_$831.42.pdf",
+      "ext": ".pdf",
+      "size": 33753,
+      "sha1": "d4ef02aac96b25384fb27fc100ada28d011899ba"
+    },
+    {
+      "path": "facturas/ede020225cr7_pl7240expes2015_2026-03-18t16-06-52_ca28689_fogr700831jd2_$831.42.xml",
+      "ext": ".xml",
+      "size": 4910,
+      "sha1": "5faf3872cba91eb9703bbd1cb892288385cb7ef5"
+    }
+  ]
+}

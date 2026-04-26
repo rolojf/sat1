@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/facturas/
+/pdf_sin_xml.csv
+/skipped_xml.csv
+/.agent-shell/
