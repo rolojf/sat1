@@ -13,3 +13,4 @@ wheels/
 /skipped_xml.csv
 /.agent-shell/
 *.xlsx
+*.xlsx
