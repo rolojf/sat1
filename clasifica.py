@@ -2,8 +2,8 @@
 
 Usage:
     uv run python clasifica.py            # dry run, just write the Excel
-    uv run python clasifica.py --apply    # actually move files
-    uv run python clasifica.py --years 2025 2026 --apply
+    uv run python clasifica.py --apply    # actually move files (every year)
+    uv run python clasifica.py --year 2025 --apply    # same, but report covers only 2025
 
 Categories:
     Auto      car/transport (combustibles, refacciones, transporte)
@@ -12,7 +12,7 @@ Categories:
     Gastos    everything else (G03, P01, S01, …)
 
 Layout produced:
-    facturas/<YEAR>/<Mes>-<YEAR>/<YYMM>-<Cat>/<file>
+    facturas/<YEAR>/<Mes><YEAR>/<YYMM>-<Cat>/<file>
     facturas/<YEAR>/sin_xml/<file>          # orphan PDFs grouped by year
     facturas/sin_xml/<file>                 # orphan PDFs with unknown year
 """
@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import re
 import shutil
 import sys
@@ -62,6 +63,104 @@ AUTO_PREFIXES = (
 AUTO_RFCS = {
     "PET040903DH1",   # Pemex (mayor)
 }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Deduplication (content-hash duplicate XMLs)
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def hash_file(path: Path) -> str:
+    h = hashlib.sha1()
+    with path.open("rb") as fh:
+        for chunk in iter(lambda: fh.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def companion_pdfs_of(xml: Path) -> list[Path]:
+    """PDFs in the same directory whose filename obviously belongs to this XML."""
+    parent = xml.parent
+    candidates = [
+        parent / f"{xml.stem}.pdf",   # foo.xml + foo.pdf
+        parent / f"{xml.name}.pdf",   # foo.xml + foo.xml.pdf (SAT portal style)
+    ]
+    seen: set[Path] = set()
+    out: list[Path] = []
+    for c in candidates:
+        if c.exists() and c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out
+
+
+def dedupe_duplicate_xmls(root: Path, *, apply: bool) -> int:
+    """Find content-identical XMLs and prompt the user which one to keep.
+
+    On --apply, deletes the discarded XMLs (and their companion PDFs).
+    Otherwise just reports what would happen. Returns the number of files
+    deleted (or that would be deleted).
+    """
+    by_hash: dict[str, list[Path]] = defaultdict(list)
+    for p in sorted(root.rglob("*.xml")):
+        if p.is_file():
+            by_hash[hash_file(p)].append(p)
+    groups = [paths for paths in by_hash.values() if len(paths) > 1]
+    if not groups:
+        print("Dedup: no duplicate XMLs found.")
+        return 0
+
+    print(f"\nDedup: detected {len(groups)} duplicate XML group(s).")
+    if not apply:
+        print("(Dry-run: nothing will actually be deleted. Re-run with --apply.)")
+    if not sys.stdin.isatty():
+        print("Dedup: stdin is not a tty — skipping interactive prompts.")
+        for gi, group in enumerate(groups, 1):
+            print(f"  group {gi}: {len(group)} copies")
+            for xml in group:
+                print(f"    - {xml.relative_to(root)}")
+        return 0
+
+    deleted = 0
+    for gi, group in enumerate(groups, 1):
+        print(f"\n--- Duplicate XML group {gi}/{len(groups)} ({len(group)} copies) ---")
+        options: list[tuple[Path, list[Path]]] = []
+        for n, xml in enumerate(group, 1):
+            pdfs = companion_pdfs_of(xml)
+            options.append((xml, pdfs))
+            print(f"  [{n}] {xml.relative_to(root)}")
+            for pdf in pdfs:
+                print(f"        + {pdf.relative_to(root)}")
+
+        while True:
+            choice = input(
+                f"Keep which? [1-{len(group)}], 's'=skip group, 'q'=quit dedup: "
+            ).strip().lower()
+            if choice == "q":
+                print("Dedup aborted by user.")
+                return deleted
+            if choice == "s":
+                print("  Skipped (no deletion).")
+                break
+            if choice.isdigit() and 1 <= int(choice) <= len(group):
+                keep = int(choice) - 1
+                for n, (xml, pdfs) in enumerate(options):
+                    if n == keep:
+                        print(f"  KEEP        {xml.relative_to(root)}")
+                        continue
+                    label = "DELETED" if apply else "WOULD DELETE"
+                    print(f"  {label} {xml.relative_to(root)}")
+                    if apply:
+                        xml.unlink()
+                    deleted += 1
+                    for pdf in pdfs:
+                        print(f"  {label} {pdf.relative_to(root)}")
+                        if apply and pdf.exists():
+                            pdf.unlink()
+                        deleted += 1
+                break
+            print("  Invalid choice.")
+    return deleted
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -298,7 +397,7 @@ def target_dir_for(f: Factura) -> Path | None:
     year = f.fecha.year
     mes_abr = MES_ABR[f.fecha.month - 1]
     yymm = f"{year % 100:02d}{f.fecha.month:02d}"
-    return FACTURAS / str(year) / f"{mes_abr}-{year}" / f"{yymm}-{f.categoria}"
+    return FACTURAS / str(year) / f"{mes_abr}{year}" / f"{yymm}-{f.categoria}"
 
 
 def safe_move(src: Path, dst_dir: Path) -> Path:
@@ -320,10 +419,8 @@ def safe_move(src: Path, dst_dir: Path) -> Path:
     return dst
 
 
-def file_pair(f: Factura, *, apply: bool, allowed_years: set[int]) -> tuple[str, list[str]]:
+def file_pair(f: Factura, *, apply: bool) -> tuple[str, list[str]]:
     actions: list[str] = []
-    if f.fecha is None or f.fecha.year not in allowed_years:
-        return ("year-skip", actions)
     target = target_dir_for(f)
     if target is None:
         return ("no-date", actions)
@@ -509,14 +606,16 @@ def write_excel(facturas: list[Factura], out_path: Path) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--apply", action="store_true", help="actually move files (default: dry-run)")
-    ap.add_argument("--years", nargs="+", type=int, default=[2025, 2026], help="years to refile")
+    ap.add_argument("--year", type=int, default=datetime.now().year, help="year to include in the Excel report and printed summary (refiling always covers every year)")
     ap.add_argument("--out", default="clasificacion.xlsx", help="output Excel filename")
     args = ap.parse_args()
 
-    allowed_years = set(args.years)
+    allowed_year = args.year
     if not FACTURAS.exists():
         print(f"ERROR: {FACTURAS} not found", file=sys.stderr)
         return 1
+
+    dedupe_duplicate_xmls(FACTURAS, apply=args.apply)
 
     pairs = discover_pairs(FACTURAS)
     facturas: list[Factura] = []
@@ -540,15 +639,13 @@ def main() -> int:
 
     facturas.sort(key=lambda f: (f.fecha or datetime.min, f.emisor_nombre))
 
-    moved_count = planned_count = year_skipped = 0
+    moved_count = planned_count = 0
     for f in facturas:
-        status, _ = file_pair(f, apply=args.apply, allowed_years=allowed_years)
+        status, _ = file_pair(f, apply=args.apply)
         if status == "moved":
             moved_count += 1
         elif status == "planned":
             planned_count += 1
-        elif status == "year-skip":
-            year_skipped += 1
 
     # Orphan PDFs (and skipped XMLs) only get moved on --apply.
     orphan_moved = orphan_kept = orphan_planned = 0
@@ -562,7 +659,8 @@ def main() -> int:
             orphan_planned += 1
 
     out_path = ROOT / args.out
-    write_excel(facturas, out_path)
+    excel_facturas = [f for f in facturas if f.fecha and f.fecha.year == allowed_year]
+    write_excel(excel_facturas, out_path)
 
     skipped_csv = ROOT / "skipped_xml.csv"
     with skipped_csv.open("w", newline="") as fh:
@@ -580,16 +678,20 @@ def main() -> int:
 
     cat_counts: dict[str, int] = defaultdict(int)
     for f in facturas:
-        if f.fecha and f.fecha.year in allowed_years:
+        if f.fecha and f.fecha.year == allowed_year:
             cat_counts[f.categoria] += 1
+
+    other_year_count = sum(
+        1 for f in facturas if f.fecha and f.fecha.year != allowed_year
+    )
 
     print()
     print(f"Discovered: {len(pairs)} pairs ({len(facturas)} parsed CFDIs, {len(skipped)} XML skipped, {len(orphan_pdfs)} orphan PDFs)")
-    print(f"In scope (years {sorted(allowed_years)}): {sum(cat_counts.values())} bills")
+    print(f"Year {allowed_year}: {sum(cat_counts.values())} bills")
     for cat in ("Auto", "AdqMerca", "DedPers", "Gastos", "Pagos", "Nomina"):
         if cat_counts.get(cat):
             print(f"   {cat:10s} {cat_counts[cat]:>4d}")
-    print(f"Year-skipped (outside {sorted(allowed_years)}): {year_skipped}")
+    print(f"Other years (also refiled): {other_year_count}")
     if args.apply:
         print(f"Moved: {moved_count} bill pairs + {orphan_moved} orphan PDFs ({orphan_kept} kept in pre-existing folders)")
     else:

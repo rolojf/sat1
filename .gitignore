@@ -12,3 +12,4 @@ wheels/
 /pdf_sin_xml.csv
 /skipped_xml.csv
 /.agent-shell/
+*.xlsx
